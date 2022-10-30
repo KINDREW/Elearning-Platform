@@ -1,0 +1,118 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "Basic HTML",
+    "slug": "basic-html"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "Basic Python",
+    "slug": "basic-python"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "Basic JavaScript",
+    "slug": "basic-javascript"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "Java OOP",
+    "slug": "java-oop"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 1,
+    "title": "Introduction to HTML",
+    "slug": "introduction-to-html",
+    "overview": "This is an introduction to HTML as a web master.",
+    "created": "2022-05-14T18:09:39.549Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "subject": 3,
+    "title": "Introduction to JavaScript",
+    "slug": "introduction-to-javascript",
+    "overview": "This is an introduction to JavaScript.",
+    "created": "2022-05-14T18:10:14.879Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 3,
+  "fields": {
+    "owner": 1,
+    "subject": 2,
+    "title": "Lovely Python",
+    "slug": "lovely-python",
+    "overview": "This the lovely Python language course.",
+    "created": "2022-05-14T18:10:37.496Z"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 4,
+  "fields": {
+    "owner": 1,
+    "subject": 4,
+    "title": "My old Love Java OOP",
+    "slug": "my-old-love-java-oop",
+    "overview": "This is my first love, Java OOP course.",
+    "created": "2022-05-14T18:11:12.890Z"
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 1,
+  "fields": {
+    "courses": 4,
+    "title": "Intro",
+    "description": "This is just the info."
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 2,
+  "fields": {
+    "courses": 3,
+    "title": "Intro",
+    "description": "This is just the intro."
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 3,
+  "fields": {
+    "courses": 2,
+    "title": "Intro",
+    "description": "This is just the intro."
+  }
+},
+{
+  "model": "courses.module",
+  "pk": 4,
+  "fields": {
+    "courses": 1,
+    "title": "Intro",
+    "description": "This is just the intro"
+  }
+}
+]
